@@ -41,3 +41,10 @@ function readLine() {
     return newArray;
     
 }
+
+function main() {
+    const n = +(readLine());
+    const a = readLine().split(' ').map(Number);
+    
+    console.log(modifyArray(a).toString().split(',').join(' '));
+}
