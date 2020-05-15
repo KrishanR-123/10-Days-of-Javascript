@@ -21,3 +21,17 @@ process.stdin.on('end', _ => {
 function readLine() {
     return inputString[currentLine++];
 }
+
+function regexVar() {
+    /*
+     * Declare a RegExp object variable named 're'
+     * It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u})
+     */
+    
+    
+    /*
+     * Do not remove the return statement
+     */
+     let re = /^([aeiou]).+\1$/;
+    return re;
+}
